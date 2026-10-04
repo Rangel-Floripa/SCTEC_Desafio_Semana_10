@@ -97,7 +97,7 @@ desafio_semana10/
 | `etl/extract.py` | Leitura e extração dos dados do CSV |
 | `etl/transform.py` | Limpeza, padronização, conversão de tipos e criação das métricas |
 | `etl/dimensoes.py` | Construção das tabelas dimensão |
-| `etl/fato.py` | Construção da tabela fato |
+| `etl/fato.py` | Construção da tabela fato com as métricas de vendas e chaves estrangeiras para as dimensões |
 | `etl/load.py` | Orquestração da carga das tabelas no PostgreSQL |
 | `sql/schema.sql` | Criação da estrutura do Data Warehouse no PostgreSQL |
 | `docker-compose.yml` | Subida do ambiente com PostgreSQL e execução do pipeline |
